@@ -7,9 +7,10 @@ Library of virtual components.
 
 ![](wiki/love-fpga-logo.png)
 
+
 ## Install
 
-* Download the collection
+* Download the collection: [stable](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
