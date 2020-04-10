@@ -90,6 +90,38 @@
             "width": 344,
             "height": 88
           }
+        },
+        {
+          "id": "9d31c983-3891-4d23-a5e8-6ce514821284",
+          "type": "basic.info",
+          "data": {
+            "info": "## Web panel for testing\n\nFor testing this example upload it to the  \nFPGA and connect to the [ONE switch WEB panel](https://fpgawars.github.io/LOVE-FPGA/Web-panels/One-Switch/panel.html)  \n(You should use a Browser that support **Webserial**, like **Chromium** or **Chrome**)  \nYou do not need to install anything. Just the browser\n\n[Panel Image](https://github.com/FPGAwars/LOVE-FPGA/raw/master/Web-panels/One-Switch/wiki/panel-03.png)\n\n![](https://github.com/FPGAwars/LOVE-FPGA/raw/master/Web-panels/One-Switch/wiki/panel-03.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1064,
+            "y": 48
+          },
+          "size": {
+            "width": 592,
+            "height": 144
+          }
+        },
+        {
+          "id": "134b0c0d-b8a6-4c5f-bf00-df3176506a48",
+          "type": "basic.info",
+          "data": {
+            "info": "## Youtube Video\n\n[Link](https://www.youtube.com/watch?v=S3cI9lfasgU)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/S3cI9lfasgU/0.jpg)](https://www.youtube.com/watch?v=S3cI9lfasgU)",
+            "readonly": true
+          },
+          "position": {
+            "x": 352,
+            "y": 560
+          },
+          "size": {
+            "width": 392,
+            "height": 176
+          }
         }
       ],
       "wires": [
