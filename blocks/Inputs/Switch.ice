@@ -1,12 +1,12 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Generic-comp",
+    "name": "Virtual-switch",
     "version": "0.1",
-    "description": "Componente genérico",
+    "description": "Virtual switch (1-bit)",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20130.27671%20237.73024%22%20height=%22898.508%22%20width=%22492.384%22%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20143.834)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%22124.857%22%20x=%2233.057%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu%22%20font-weight=%22400%22%20font-size=%2222.746%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%222.013%22%20transform=%22translate(-16.246%2073.41)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%22124.857%22%20x=%2233.057%22%20font-weight=%22500%22%3ESwitch%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%2086.483)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20-62.42)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20stroke-width=%221.391%22%3E%3Cg%20transform=%22matrix(.71893%200%200%20.71893%20-14.526%2013.424)%22%3E%3Cellipse%20cx=%22106.799%22%20cy=%22119.111%22%20rx=%2253.472%22%20ry=%2254.162%22%20fill=%22#938a79%22/%3E%3Cellipse%20ry=%2226.387%22%20rx=%2225.478%22%20cy=%22118.184%22%20cx=%22106.467%22%20fill=%22#1a1a1a%22/%3E%3Cellipse%20cx=%22106.938%22%20cy=%22119.282%22%20rx=%2221.476%22%20ry=%2221.376%22%20fill=%22#655e4c%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.71893%200%200%20.71893%20-14.526%2013.424)%22%3E%3Cpath%20d=%22M72.11%2068.128l.543%2011.302%201.352%206.676%209.873%2023.579%202.256%202.949%204.14%203.371%205.78%202.698%206.34.644h7.521l7.826-1.043%204.079-2.128%204.475-3.452%202.592-4.165%202.348-4.887%203.02-9.022%201.717-7.245%201.78-11.847-.495-9.073z%22%20fill=%22#a00%22%20stroke=%22#000%22%20stroke-width=%22.368%22/%3E%3Cellipse%20ry=%2232.095%22%20rx=%2232.718%22%20cy=%2266.71%22%20cx=%22104.639%22%20fill=%22#d22521%22/%3E%3Cellipse%20ry=%221.929%22%20rx=%222.646%22%20cy=%2260.248%22%20cx=%22103.34%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20cx=%22110.279%22%20cy=%2259.989%22%20rx=%222.444%22%20ry=%221.899%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20ry=%221.381%22%20rx=%221.984%22%20cy=%2253.677%22%20cx=%22109.957%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20cx=%22103.578%22%20cy=%2253.549%22%20rx=%221.794%22%20ry=%221.338%22%20fill=%22#ffe9d0%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E",
-    "otid": 1586261742033
+    "otid": 1586681869788
   },
   "design": {
     "board": "alhambra-ii",
@@ -16,15 +16,7 @@
           "id": "e4b6b8e0-39ac-482f-a328-705d9992e09a",
           "type": "basic.output",
           "data": {
-            "name": "ch",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED7",
-                "value": "37"
-              }
-            ],
-            "virtual": false
+            "name": "ch"
           },
           "position": {
             "x": 1880,
@@ -36,15 +28,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "changed",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": "changed"
           },
           "position": {
             "x": 1728,
@@ -69,64 +53,7 @@
           "data": {
             "name": "",
             "range": "[10:0]",
-            "pins": [
-              {
-                "index": "10",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "9",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false
+            "size": 11
           },
           "position": {
             "x": 1912,
@@ -140,65 +67,8 @@
             "blockColor": "deepskyblue",
             "name": "VIB",
             "range": "[10:0]",
-            "pins": [
-              {
-                "index": "10",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "9",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "oldBlockColor": "fuchsia"
+            "oldBlockColor": "fuchsia",
+            "size": 11
           },
           "position": {
             "x": 1720,
@@ -241,15 +111,7 @@
           "id": "7f8dcdff-0453-4d52-9536-ee26651255f7",
           "type": "basic.output",
           "data": {
-            "name": "bit",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED7",
-                "value": "37"
-              }
-            ],
-            "virtual": false
+            "name": "bit"
           },
           "position": {
             "x": 1904,
@@ -281,15 +143,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "bit",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": "bit"
           },
           "position": {
             "x": 1728,
@@ -302,14 +156,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "bit_a",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -323,65 +169,8 @@
           "data": {
             "name": "",
             "range": "[10:0]",
-            "pins": [
-              {
-                "index": "10",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "9",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
-            "clock": false
+            "clock": false,
+            "size": 11
           },
           "position": {
             "x": 16,
@@ -466,8 +255,7 @@
           "data": {
             "blockColor": "turquoise",
             "name": "exec_a",
-            "oldBlockColor": "turquoise",
-            "virtual": true
+            "oldBlockColor": "turquoise"
           },
           "position": {
             "x": 1040,
@@ -553,15 +341,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "changed",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": "changed"
           },
           "position": {
             "x": 1560,
@@ -572,15 +352,7 @@
           "id": "e115706e-2c0c-4bca-8600-6d6e721af6cc",
           "type": "basic.output",
           "data": {
-            "name": "on",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED7",
-                "value": "37"
-              }
-            ],
-            "virtual": false
+            "name": "on"
           },
           "position": {
             "x": 1896,
@@ -650,8 +422,7 @@
           "data": {
             "blockColor": "turquoise",
             "name": "exec_a",
-            "oldBlockColor": "turquoise",
-            "virtual": true
+            "oldBlockColor": "turquoise"
           },
           "position": {
             "x": 1032,
@@ -663,14 +434,6 @@
           "type": "basic.input",
           "data": {
             "name": "nc",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
             "clock": false
           },
           "position": {
@@ -683,15 +446,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "bit",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": "bit"
           },
           "position": {
             "x": 1560,
@@ -724,14 +479,6 @@
           "type": "basic.input",
           "data": {
             "name": "nc",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
             "clock": false
           },
           "position": {
@@ -743,15 +490,7 @@
           "id": "498a4c49-6944-469b-82b2-dec94935985c",
           "type": "basic.output",
           "data": {
-            "name": "off",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED7",
-                "value": "37"
-              }
-            ],
-            "virtual": false
+            "name": "off"
           },
           "position": {
             "x": 1896,
@@ -820,14 +559,6 @@
           "type": "basic.input",
           "data": {
             "name": "nc",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
             "clock": false
           },
           "position": {
@@ -854,8 +585,7 @@
           "data": {
             "blockColor": "darkorange",
             "name": "rst",
-            "oldBlockColor": "darkorange",
-            "virtual": true
+            "oldBlockColor": "darkorange"
           },
           "position": {
             "x": 456,
@@ -868,8 +598,7 @@
           "data": {
             "blockColor": "darkorange",
             "name": "rst",
-            "oldBlockColor": "darkorange",
-            "virtual": true
+            "oldBlockColor": "darkorange"
           },
           "position": {
             "x": 144,
@@ -882,8 +611,7 @@
           "data": {
             "blockColor": "navy",
             "name": "eol",
-            "oldBlockColor": "navy",
-            "virtual": true
+            "oldBlockColor": "navy"
           },
           "position": {
             "x": 792,
@@ -898,8 +626,7 @@
             "range": "[7:0]",
             "blockColor": "navy",
             "oldBlockColor": "navy",
-            "size": 8,
-            "virtual": true
+            "size": 8
           },
           "position": {
             "x": 144,
@@ -933,8 +660,7 @@
           "data": {
             "blockColor": "navy",
             "name": "tic",
-            "oldBlockColor": "navy",
-            "virtual": true
+            "oldBlockColor": "navy"
           },
           "position": {
             "x": 144,
