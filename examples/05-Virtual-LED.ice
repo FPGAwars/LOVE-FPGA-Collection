@@ -426,6 +426,38 @@
             "width": 96,
             "height": 96
           }
+        },
+        {
+          "id": "8ecfef46-2b41-4502-a84f-5e3a5eee70cd",
+          "type": "basic.info",
+          "data": {
+            "info": "## Youtube Video\n\n[Link](https://www.youtube.com/watch?v=n8WTWNlL8CA)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/ycp8d5fJK6Q/0.jpg)](https://www.youtube.com/watch?v=ycp8d5fJK6Q)",
+            "readonly": true
+          },
+          "position": {
+            "x": 240,
+            "y": 160
+          },
+          "size": {
+            "width": 424,
+            "height": 184
+          }
+        },
+        {
+          "id": "1aa3ed6c-f2fc-4c8b-8525-477292b79632",
+          "type": "basic.info",
+          "data": {
+            "info": "## Web panel for testing\n\nFor testing this example upload it to the  \nFPGA and connect to the [One LED WEB panel](https://fpgawars.github.io/LOVE-FPGA/Web-panels/Two-Switches-One-Pushbutton/panel.html)  \n(You should use a Browser that support **Webserial**, like **Chromium** or **Chrome**)  \nYou do not need to install anything. Just the browser\n\n[Panel Image](https://github.com/FPGAwars/LOVE-FPGA/raw/master/Web-panels/One-LED/wiki/panel-01.png)\n\n![](https://github.com/FPGAwars/LOVE-FPGA/raw/master/Web-panels/One-LED/wiki/panel-01.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1344,
+            "y": -208
+          },
+          "size": {
+            "width": 488,
+            "height": 216
+          }
         }
       ],
       "wires": [
