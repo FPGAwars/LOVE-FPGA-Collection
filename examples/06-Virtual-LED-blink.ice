@@ -298,8 +298,8 @@
             "virtual": false
           },
           "position": {
-            "x": 888,
-            "y": 136
+            "x": 896,
+            "y": 96
           }
         },
         {
@@ -318,8 +318,8 @@
             "virtual": true
           },
           "position": {
-            "x": 752,
-            "y": 136
+            "x": 760,
+            "y": 96
           }
         },
         {
@@ -327,7 +327,7 @@
           "type": "basic.constant",
           "data": {
             "name": "",
-            "value": "2",
+            "value": "1",
             "local": false
           },
           "position": {
@@ -372,8 +372,8 @@
             "readonly": true
           },
           "position": {
-            "x": 360,
-            "y": -288
+            "x": 264,
+            "y": -296
           },
           "size": {
             "width": 424,
@@ -412,12 +412,44 @@
             "readonly": true
           },
           "position": {
-            "x": 856,
-            "y": 88
+            "x": 864,
+            "y": 48
           },
           "size": {
             "width": 152,
             "height": 40
+          }
+        },
+        {
+          "id": "610cbdef-7dc8-4b85-a173-79288186ad24",
+          "type": "basic.info",
+          "data": {
+            "info": "## Youtube Video\n\n[Link](https://www.youtube.com/watch?v=Mi0ew0z-PlU)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/Mi0ew0z-PlU/0.jpg)](https://www.youtube.com/watch?v=Mi0ew0z-PlU)",
+            "readonly": true
+          },
+          "position": {
+            "x": 296,
+            "y": 104
+          },
+          "size": {
+            "width": 424,
+            "height": 184
+          }
+        },
+        {
+          "id": "077056b4-b8e5-4ef0-b2b8-6d814b092073",
+          "type": "basic.info",
+          "data": {
+            "info": "## Web panel for testing\n\nFor testing this example upload it to the  \nFPGA and connect to the [One LED WEB panel](https://fpgawars.github.io/LOVE-FPGA/Web-panels/Two-Switches-One-Pushbutton/panel.html)  \n(You should use a Browser that support **Webserial**, like **Chromium** or **Chrome**)  \nYou do not need to install anything. Just the browser\n\n[Panel Image](https://github.com/FPGAwars/LOVE-FPGA/raw/master/Web-panels/One-LED/wiki/panel-01.png)\n\n![](https://github.com/FPGAwars/LOVE-FPGA/raw/master/Web-panels/One-LED/wiki/panel-01.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1216,
+            "y": -280
+          },
+          "size": {
+            "width": 488,
+            "height": 216
           }
         }
       ],
