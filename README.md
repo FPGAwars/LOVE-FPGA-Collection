@@ -7,10 +7,9 @@ Library of virtual components.
 
 ![](wiki/love-fpga-logo.png)
 
-
 ## Install
 
-* Download the collection: [development](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -19,13 +18,28 @@ Library of virtual components.
   * VIB-Input-Bus
   * VIB-Split
   * VIB-join
+  * VOB-Output-Bus
+  * VOB-Split
+  * VOB-join
 * *Inputs*
+  * PushButton-First
+  * PushButton
   * Switch-First
   * Switch
 * *Outputs*
+  * LED-tx
+  * LED
 
 ## Examples
 * 01-switch-LED
+* 02-switchx2-LEDx2
+* 03-switchx2-pushbtn-LEDx3
+* 04-switchx2-pushbtnx2-LEDx4
+* 05-Virtual-LED
+* 06-Virtual-LED-blink
+* 07-Virtual-LEDx2-counter
+* *Test*
+  * 01-pushbutton-test
 
 
 ## Authors
