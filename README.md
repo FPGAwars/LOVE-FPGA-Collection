@@ -3,7 +3,7 @@
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
 
-Library of virtual components.
+Library of virtual components
 
 ![](wiki/love-fpga-logo.png)
 
@@ -38,6 +38,7 @@ Library of virtual components.
 * 05-Virtual-LED
 * 06-Virtual-LED-blink
 * 07-Virtual-LEDx2-counter
+* 08-switchx4-pushbtnx4-LEDx8
 * *Test*
   * 01-pushbutton-test
 
