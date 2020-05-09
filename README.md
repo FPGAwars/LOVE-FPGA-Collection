@@ -7,6 +7,7 @@ Library of virtual components
 
 ![](wiki/love-fpga-logo.png)
 
+
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/master.zip)
@@ -27,8 +28,12 @@ Library of virtual components
   * Switch-First
   * Switch
 * *Outputs*
-  * LED-tx
-  * LED
+  * *LEDx1*
+    * LEDx1-BUS
+    * LEDx1-tx
+    * LEDx1
+  * *LEDx2*
+    * LEDx2
 
 ## Examples
 * 01-switch-LED
