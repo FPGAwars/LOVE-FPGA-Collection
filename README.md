@@ -3,7 +3,7 @@
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
 
-Library of virtual components
+Library of virtual components.
 
 ![](wiki/love-fpga-logo.png)
 
@@ -33,7 +33,16 @@ Library of virtual components
     * LEDx1-tx
     * LEDx1
   * *LEDx2*
+    * LEDx2-bus
+    * LEDx2-tx
     * LEDx2
+  * *LEDx4*
+    * LEDx4-bus
+    * LEDx4-tx
+    * LEDx4
+  * *LEDx8*
+    * LEDx8-tx
+    * LEDx8
 
 ## Examples
 * 01-switch-LED
