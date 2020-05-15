@@ -3,10 +3,9 @@
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
 
-Library of virtual components.
+Library of virtual components
 
 ![](wiki/love-fpga-logo.png)
-
 
 ## Install
 
@@ -25,8 +24,18 @@ Library of virtual components.
 * *Inputs*
   * PushButton-First
   * PushButton
-  * Switch-First
-  * Switch
+  * *Switchx1*
+    * Switchx1-bus
+    * Switchx1-rx
+    * Switchx1
+  * *Switchx2*
+    * Switchx2-bus
+    * Switchx2-rx
+    * Switchx2
+  * *Switchx4*
+    * Switchx4-Bus
+    * Switchx4-rx
+    * Switchx4
 * *Outputs*
   * *LEDx1*
     * LEDx1-BUS
