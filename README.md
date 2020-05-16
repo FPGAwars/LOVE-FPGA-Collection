@@ -22,8 +22,10 @@ Library of virtual components
   * VOB-Split
   * VOB-join
 * *Inputs*
-  * PushButton-First
-  * PushButton
+  * *Pushbuttonx1*
+    * PushButtonx1-bus
+    * PushButtonx1-rx
+    * PushButtonx1
   * *Switchx1*
     * Switchx1-bus
     * Switchx1-rx
