@@ -12,6 +12,25 @@
     "graph": {
       "blocks": [
         {
+          "id": "35beec8c-031f-4f9a-8a38-0e388df83da9",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED7",
+                "value": "37"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 752,
+            "y": 376
+          }
+        },
+        {
           "id": "15d8b6b2-e1b0-45ce-88d1-72115dd04a59",
           "type": "basic.input",
           "data": {
@@ -28,26 +47,7 @@
           },
           "position": {
             "x": 424,
-            "y": 360
-          }
-        },
-        {
-          "id": "35beec8c-031f-4f9a-8a38-0e388df83da9",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED7",
-                "value": "37"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 792,
-            "y": 392
+            "y": 424
           }
         },
         {
@@ -67,12 +67,12 @@
           "id": "231b75e3-0c6e-495e-af52-ded4e2cf6453",
           "type": "basic.info",
           "data": {
-            "info": "# Example 1: Switch-First\n\nExample of one virtual switch  \nThe virtual switch is connected to the LED7  ",
+            "info": "# Example 1: Switchx1\n\nExample of one virtual switch  \nThe virtual switch is connected to the LED7  ",
             "readonly": true
           },
           "position": {
-            "x": 408,
-            "y": 120
+            "x": 400,
+            "y": 56
           },
           "size": {
             "width": 344,
@@ -112,15 +112,15 @@
           }
         },
         {
-          "id": "014da618-74a8-4188-9403-ef25028144f8",
-          "type": "2142f6edeb994da5acc77cb7e3577d21098a0a62",
+          "id": "adfd4c03-08f7-4be5-ae1e-1bbbd1d58782",
+          "type": "e93bc0bebc09e014641b5fd4e56e307eda2215f9",
           "position": {
             "x": 592,
-            "y": 344
+            "y": 360
           },
           "size": {
             "width": 96,
-            "height": 160
+            "height": 128
           }
         }
       ],
@@ -131,7 +131,7 @@
             "port": "out"
           },
           "target": {
-            "block": "014da618-74a8-4188-9403-ef25028144f8",
+            "block": "adfd4c03-08f7-4be5-ae1e-1bbbd1d58782",
             "port": "cc59f9ee-9a61-4226-9c18-3a4ee8a1097c"
           }
         },
@@ -141,13 +141,13 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "014da618-74a8-4188-9403-ef25028144f8",
+            "block": "adfd4c03-08f7-4be5-ae1e-1bbbd1d58782",
             "port": "881babb5-8361-48d6-a476-2f3329f17360"
           }
         },
         {
           "source": {
-            "block": "014da618-74a8-4188-9403-ef25028144f8",
+            "block": "adfd4c03-08f7-4be5-ae1e-1bbbd1d58782",
             "port": "fb1d7b83-faa8-43b5-84c8-655a4f7a4b4e"
           },
           "target": {
@@ -159,11 +159,277 @@
     }
   },
   "dependencies": {
-    "2142f6edeb994da5acc77cb7e3577d21098a0a62": {
+    "e93bc0bebc09e014641b5fd4e56e307eda2215f9": {
       "package": {
-        "name": "Switch-first",
-        "version": "0.1-sds",
-        "description": "Virtual Switch. Place the first in the Bus chain",
+        "name": "Switchx1",
+        "version": "0.1",
+        "description": "One Virtual Switch",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20130.27671%20237.73024%22%20height=%22898.508%22%20width=%22492.384%22%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20143.834)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%22124.857%22%20x=%2233.057%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu%22%20font-weight=%22400%22%20font-size=%2222.746%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%222.013%22%20transform=%22translate(-16.246%2073.41)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%22124.857%22%20x=%2233.057%22%20font-weight=%22500%22%3ESwitch%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%2086.483)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20-62.42)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20stroke-width=%221.391%22%3E%3Cg%20transform=%22matrix(.71893%200%200%20.71893%20-14.526%2013.424)%22%3E%3Cellipse%20cx=%22106.799%22%20cy=%22119.111%22%20rx=%2253.472%22%20ry=%2254.162%22%20fill=%22#938a79%22/%3E%3Cellipse%20ry=%2226.387%22%20rx=%2225.478%22%20cy=%22118.184%22%20cx=%22106.467%22%20fill=%22#1a1a1a%22/%3E%3Cellipse%20cx=%22106.938%22%20cy=%22119.282%22%20rx=%2221.476%22%20ry=%2221.376%22%20fill=%22#655e4c%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.71893%200%200%20.71893%20-14.526%2013.424)%22%3E%3Cpath%20d=%22M72.11%2068.128l.543%2011.302%201.352%206.676%209.873%2023.579%202.256%202.949%204.14%203.371%205.78%202.698%206.34.644h7.521l7.826-1.043%204.079-2.128%204.475-3.452%202.592-4.165%202.348-4.887%203.02-9.022%201.717-7.245%201.78-11.847-.495-9.073z%22%20fill=%22#a00%22%20stroke=%22#000%22%20stroke-width=%22.368%22/%3E%3Cellipse%20ry=%2232.095%22%20rx=%2232.718%22%20cy=%2266.71%22%20cx=%22104.639%22%20fill=%22#d22521%22/%3E%3Cellipse%20ry=%221.929%22%20rx=%222.646%22%20cy=%2260.248%22%20cx=%22103.34%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20cx=%22110.279%22%20cy=%2259.989%22%20rx=%222.444%22%20ry=%221.899%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20ry=%221.381%22%20rx=%221.984%22%20cy=%2253.677%22%20cx=%22109.957%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20cx=%22103.578%22%20cy=%2253.549%22%20rx=%221.794%22%20ry=%221.338%22%20fill=%22#ffe9d0%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E",
+        "otid": 1586346593044
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "2d0b38b2-8300-4fb6-8a95-331ac933247c",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 248,
+                "y": 256
+              }
+            },
+            {
+              "id": "70172388-980e-4885-9b95-a4721ea38d62",
+              "type": "basic.inputLabel",
+              "data": {
+                "blockColor": "yellow",
+                "name": "clk",
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "",
+                    "value": ""
+                  }
+                ],
+                "virtual": true
+              },
+              "position": {
+                "x": 376,
+                "y": 256
+              }
+            },
+            {
+              "id": "6ef0fcb0-d89c-41f5-84c0-b5d868dc1a8e",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "yellow",
+                "name": "clk"
+              },
+              "position": {
+                "x": 576,
+                "y": 400
+              }
+            },
+            {
+              "id": "d8fd836a-fdd6-4853-98b1-365a691e1829",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "yellow",
+                "name": "clk"
+              },
+              "position": {
+                "x": 384,
+                "y": 400
+              }
+            },
+            {
+              "id": "15c79b31-f9eb-48b5-9b3b-82d2ff6b5781",
+              "type": "basic.output",
+              "data": {
+                "name": "ch"
+              },
+              "position": {
+                "x": 920,
+                "y": 440
+              }
+            },
+            {
+              "id": "cc59f9ee-9a61-4226-9c18-3a4ee8a1097c",
+              "type": "basic.input",
+              "data": {
+                "name": "rx",
+                "clock": false
+              },
+              "position": {
+                "x": 256,
+                "y": 504
+              }
+            },
+            {
+              "id": "fb1d7b83-faa8-43b5-84c8-655a4f7a4b4e",
+              "type": "basic.output",
+              "data": {
+                "name": "bit"
+              },
+              "position": {
+                "x": 920,
+                "y": 568
+              }
+            },
+            {
+              "id": "7c13a9e6-8afb-42c7-993f-0adf6c62cb7b",
+              "type": "basic.output",
+              "data": {
+                "name": "on"
+              },
+              "position": {
+                "x": 920,
+                "y": 632
+              }
+            },
+            {
+              "id": "0b3ee053-f4a8-4131-b96e-fe7a329b4509",
+              "type": "basic.output",
+              "data": {
+                "name": "off"
+              },
+              "position": {
+                "x": 912,
+                "y": 696
+              }
+            },
+            {
+              "id": "881babb5-8361-48d6-a476-2f3329f17360",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "\"a\"",
+                "local": false
+              },
+              "position": {
+                "x": 720,
+                "y": 392
+              }
+            },
+            {
+              "id": "2cdcf3ed-0937-4397-bfaf-cd4eaaa5d8da",
+              "type": "basic.info",
+              "data": {
+                "info": "# Virtual Switchx1\n\nJust one vitual switch connected directly  \nto the RX serial pin",
+                "readonly": true
+              },
+              "position": {
+                "x": 552,
+                "y": 240
+              },
+              "size": {
+                "width": 352,
+                "height": 112
+              }
+            },
+            {
+              "id": "62d20cce-25c2-4729-97db-70cff0828d22",
+              "type": "027b081702afbf6bbe4d9b2eee54e9fa4ff71fea",
+              "position": {
+                "x": 720,
+                "y": 488
+              },
+              "size": {
+                "width": 96,
+                "height": 160
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "2d0b38b2-8300-4fb6-8a95-331ac933247c",
+                "port": "out"
+              },
+              "target": {
+                "block": "70172388-980e-4885-9b95-a4721ea38d62",
+                "port": "inlabel"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "6ef0fcb0-d89c-41f5-84c0-b5d868dc1a8e",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "62d20cce-25c2-4729-97db-70cff0828d22",
+                "port": "2d0b38b2-8300-4fb6-8a95-331ac933247c"
+              }
+            },
+            {
+              "source": {
+                "block": "881babb5-8361-48d6-a476-2f3329f17360",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "62d20cce-25c2-4729-97db-70cff0828d22",
+                "port": "881babb5-8361-48d6-a476-2f3329f17360"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "62d20cce-25c2-4729-97db-70cff0828d22",
+                "port": "15c79b31-f9eb-48b5-9b3b-82d2ff6b5781"
+              },
+              "target": {
+                "block": "15c79b31-f9eb-48b5-9b3b-82d2ff6b5781",
+                "port": "in"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "62d20cce-25c2-4729-97db-70cff0828d22",
+                "port": "fb1d7b83-faa8-43b5-84c8-655a4f7a4b4e"
+              },
+              "target": {
+                "block": "fb1d7b83-faa8-43b5-84c8-655a4f7a4b4e",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "62d20cce-25c2-4729-97db-70cff0828d22",
+                "port": "7c13a9e6-8afb-42c7-993f-0adf6c62cb7b"
+              },
+              "target": {
+                "block": "7c13a9e6-8afb-42c7-993f-0adf6c62cb7b",
+                "port": "in"
+              },
+              "vertices": [
+                {
+                  "x": 888,
+                  "y": 616
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "62d20cce-25c2-4729-97db-70cff0828d22",
+                "port": "0b3ee053-f4a8-4131-b96e-fe7a329b4509"
+              },
+              "target": {
+                "block": "0b3ee053-f4a8-4131-b96e-fe7a329b4509",
+                "port": "in"
+              },
+              "vertices": [
+                {
+                  "x": 872,
+                  "y": 688
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "cc59f9ee-9a61-4226-9c18-3a4ee8a1097c",
+                "port": "out"
+              },
+              "target": {
+                "block": "62d20cce-25c2-4729-97db-70cff0828d22",
+                "port": "cc59f9ee-9a61-4226-9c18-3a4ee8a1097c"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "027b081702afbf6bbe4d9b2eee54e9fa4ff71fea": {
+      "package": {
+        "name": "Switchx1-RX",
+        "version": "0.1",
+        "description": "Virtual Switch. Receiving unit",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20130.27671%20237.73024%22%20height=%22898.508%22%20width=%22492.384%22%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20143.834)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%22124.857%22%20x=%2233.057%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu%22%20font-weight=%22400%22%20font-size=%2222.746%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%222.013%22%20transform=%22translate(-16.246%2073.41)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%22124.857%22%20x=%2233.057%22%20font-weight=%22500%22%3ESwitch%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%2086.483)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20-62.42)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20stroke-width=%221.391%22%3E%3Cg%20transform=%22matrix(.71893%200%200%20.71893%20-14.526%2013.424)%22%3E%3Cellipse%20cx=%22106.799%22%20cy=%22119.111%22%20rx=%2253.472%22%20ry=%2254.162%22%20fill=%22#938a79%22/%3E%3Cellipse%20ry=%2226.387%22%20rx=%2225.478%22%20cy=%22118.184%22%20cx=%22106.467%22%20fill=%22#1a1a1a%22/%3E%3Cellipse%20cx=%22106.938%22%20cy=%22119.282%22%20rx=%2221.476%22%20ry=%2221.376%22%20fill=%22#655e4c%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.71893%200%200%20.71893%20-14.526%2013.424)%22%3E%3Cpath%20d=%22M72.11%2068.128l.543%2011.302%201.352%206.676%209.873%2023.579%202.256%202.949%204.14%203.371%205.78%202.698%206.34.644h7.521l7.826-1.043%204.079-2.128%204.475-3.452%202.592-4.165%202.348-4.887%203.02-9.022%201.717-7.245%201.78-11.847-.495-9.073z%22%20fill=%22#a00%22%20stroke=%22#000%22%20stroke-width=%22.368%22/%3E%3Cellipse%20ry=%2232.095%22%20rx=%2232.718%22%20cy=%2266.71%22%20cx=%22104.639%22%20fill=%22#d22521%22/%3E%3Cellipse%20ry=%221.929%22%20rx=%222.646%22%20cy=%2260.248%22%20cx=%22103.34%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20cx=%22110.279%22%20cy=%2259.989%22%20rx=%222.444%22%20ry=%221.899%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20ry=%221.381%22%20rx=%221.984%22%20cy=%2253.677%22%20cx=%22109.957%22%20fill=%22#ffe9d0%22/%3E%3Cellipse%20cx=%22103.578%22%20cy=%2253.549%22%20rx=%221.794%22%20ry=%221.338%22%20fill=%22#ffe9d0%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E",
         "otid": 1586346593044
