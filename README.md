@@ -7,6 +7,7 @@ Library of virtual components
 
 ![](wiki/love-fpga-logo.png)
 
+
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/LOVE-FPGA-Collection/archive/master.zip)
@@ -26,6 +27,14 @@ Library of virtual components
     * PushButtonx1-bus
     * PushButtonx1-rx
     * PushButtonx1
+  * *Pushbuttonx2*
+    * Pushbuttonx2-bus
+    * Pushbuttonx2-rx
+    * Pushbuttonx2
+  * *Pushbuttonx4*
+    * Pushbuttonx4-bus
+    * Pushbuttonx4-rx
+    * Pushbuttonx4
   * *Switchx1*
     * Switchx1-bus
     * Switchx1-rx
@@ -64,6 +73,44 @@ Library of virtual components
 * 06-Virtual-LED-blink
 * 07-Virtual-LEDx2-counter
 * 08-switchx4-pushbtnx4-LEDx8
+* *CT8-Examples*
+  * *01-LEDs*
+    * 01-LED-real-virt
+    * 02-LED-real-virt-b
+    * 03-LED-parpadeante
+    * 04-LED-virtual-pulsador-real
+    * 05-LED-virtualx2-alternantes
+    * 06-LED-virtualx2-pulsadores-realesx2
+    * 07-Contador-4bits-LEDs-virtuales
+    * 08-LEDsx3-conf1
+    * 08-LEDsx3-conf2
+    * 08-LEDsx3-conf3
+    * 09-LEDsx8-conf1
+    * 09-LEDsx8-conf2
+  * *02-Switch*
+    * 10-Switch-LED
+    * 11-Switch-LED-2
+    * 12-Switch-NOT-LED
+    * 13-Switch-shift-LEDsx8
+    * 14-Switchx2-LEDsx2
+    * 15-Switchx2-Puerta-AND
+    * 16-Switchx4-LEDs
+    * 17-Switchx4-suma-numeros-2bits
+    * 18-Switchx3-bus-LEDs
+  * *03-Button*
+    * 19-Button-LED
+    * 20-Button-memory-LED
+    * 21-Button-Counter-4-bits-LEDs
+    * 22-Button-sequence-LEDs
+    * 23-Buttonx2-counter-reset-LED
+    * 24-Buttonx2-left-right-LED
+    * 25-Buttonx4-LEDs
+    * 26-Buttonx3-LEDs-bus
+  * *04-Mix*
+    * 27-Captura-dato-4bits
+    * 28-Captura-dato-8bits
+    * 29-Calc-suma-4-bits
+    * 30-inputsx8-LEDs
 * *Test*
   * 01-pushbutton-test
 
