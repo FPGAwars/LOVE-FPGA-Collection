@@ -3,10 +3,9 @@
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
 
-Library of virtual components
+Library of virtual components.
 
 ![](wiki/love-fpga-logo.png)
-
 
 ## Install
 
@@ -39,28 +38,45 @@ Library of virtual components
     * Switchx1-bus
     * Switchx1-rx
     * Switchx1
+  * *Switchx16*
+    * Switchx16-rx
+    * Switchx16
   * *Switchx2*
     * Switchx2-bus
     * Switchx2-rx
     * Switchx2
+  * *Switchx3*
+    * Switchx3-bus
+    * Switchx3-rx
+    * Switchx3
   * *Switchx4*
     * Switchx4-Bus
     * Switchx4-rx
     * Switchx4
+  * *Switchx8*
+    * Switchx8-bus
+    * Switchx8-rx
+    * Switchx8
 * *Outputs*
   * *LEDx1*
     * LEDx1-BUS
     * LEDx1-tx
     * LEDx1
+  * *LEDx16*
+    * LEDx16-tx
+    * LEDx16
   * *LEDx2*
     * LEDx2-bus
     * LEDx2-tx
     * LEDx2
+  * *LEDx3*
+    * LEDx3
   * *LEDx4*
     * LEDx4-bus
     * LEDx4-tx
     * LEDx4
   * *LEDx8*
+    * LEDx8-bus
     * LEDx8-tx
     * LEDx8
 
