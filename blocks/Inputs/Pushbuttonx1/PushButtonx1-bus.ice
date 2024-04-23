@@ -2,7 +2,7 @@
   "version": "1.2",
   "package": {
     "name": "Pushbutton-bus",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Virtual-pushbutton. Bus block",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22492.384%22%20height=%22898.508%22%20viewBox=%220%200%20130.27671%20237.73024%22%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20143.834)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu%22%20x=%2226.45%22%20y=%22126.599%22%20font-weight=%22400%22%20font-size=%2219.337%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%221.712%22%20transform=%22translate(-16.246%2073.41)%22%3E%3Ctspan%20x=%2226.45%22%20y=%22126.599%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EPushButton%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%2086.483)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20-62.42)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.823%200%200%20.823%20-156.5%2077.249)%22%3E%3Cellipse%20cy=%2214.088%22%20cx=%22265.674%22%20rx=%2244.933%22%20ry=%2244.728%22%20fill=%22#83796b%22%20stroke=%22#000%22%20stroke-width=%221.834%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M249.535%2056.245l8.579-9.706s16.702%202.27%2027.032-5.262c10.33-7.532%2014.313-18.122%2014.313-18.122l9.623.13s.123%2017.029-19.476%2029.258c-19.6%2012.23-40.071%203.702-40.071%203.702zM294.306-20.648l-6.374%208.581s-20.463-13.658-36.894-4.412c-16.43%209.246-17.565%2021.645-17.565%2021.645l-11.645-.13s4.693-27.224%2031.861-34.019c27.169-6.796%2040.617%208.335%2040.617%208.335z%22%20fill=%22#edeeee%22%20stroke=%22#000%22%20stroke-width=%221.834%22/%3E%3Cellipse%20cy=%2213.405%22%20cx=%22266.233%22%20rx=%2234.021%22%20ry=%2233.866%22%20fill=%22#d5403e%22%20stroke=%22#000%22%20stroke-width=%221.834%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20cx=%22265.832%22%20cy=%2213.2%22%20rx=%2226.223%22%20ry=%2226.104%22%20fill=%22#e75553%22/%3E%3Cpath%20d=%22M243.308%204.644c-.537-9.328%207.204-17.147%2021.007-17.235%2013.802-.088%2022.9%204.879%2023.494%2014.927.594%2010.047-10.64%2016.823-20.905%2017.086-10.264.264-23.06-5.45-23.596-14.778z%22%20fill=%22#e96f6f%22/%3E%3Cellipse%20cx=%22229.494%22%20cy=%22-149.715%22%20rx=%221.886%22%20ry=%227.286%22%20transform=%22matrix(.79638%20.6048%20-.69258%20.72134%200%200)%22%20fill=%22#eab5b5%22/%3E%3C/g%3E%3C/svg%3E",
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-          "type": "5c14e0bce2246e0fce154084083b1650b8cdb21e",
+          "id": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+          "type": "b32aca6e8d9c47e0c2de2cf39e822908d9ce42cc",
           "position": {
             "x": 408,
             "y": 320
@@ -180,8 +180,8 @@
             "port": "out"
           },
           "target": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "24461065-fc3f-4420-8a79-951f85fdad08"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "06eb3584-9ddd-4ea1-8a58-0a61503a8f98"
           }
         },
         {
@@ -190,8 +190,8 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "01eb12f2-3378-470e-9326-ce5f54740afd"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "672c9096-9703-4da2-aa8e-743b1a7bb783"
           }
         },
         {
@@ -200,15 +200,15 @@
             "port": "out"
           },
           "target": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "2d69f499-7e85-4219-8576-364c275cfbf7"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "445dd56e-8823-4325-aded-916cf2624f59"
           },
           "size": 11
         },
         {
           "source": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "e4b6b8e0-39ac-482f-a328-705d9992e09a"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "baf184fe-538f-407e-b2b5-72e5851740a1"
           },
           "target": {
             "block": "baf184fe-538f-407e-b2b5-72e5851740a1",
@@ -217,8 +217,8 @@
         },
         {
           "source": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "39981364-dfe1-4169-9cec-9ba2143cd4a5"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "b6140fa0-ef53-4f1b-bcc8-631d1608d96c"
           },
           "target": {
             "block": "b6140fa0-ef53-4f1b-bcc8-631d1608d96c",
@@ -228,8 +228,8 @@
         },
         {
           "source": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "7f8dcdff-0453-4d52-9536-ee26651255f7"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "6d75db5b-9cb9-4620-a151-049a4c057b3b"
           },
           "target": {
             "block": "6d75db5b-9cb9-4620-a151-049a4c057b3b",
@@ -238,8 +238,8 @@
         },
         {
           "source": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "e115706e-2c0c-4bca-8600-6d6e721af6cc"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "5c4513fa-3df8-4e75-a16a-968e49322325"
           },
           "target": {
             "block": "5c4513fa-3df8-4e75-a16a-968e49322325",
@@ -254,8 +254,8 @@
         },
         {
           "source": {
-            "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
-            "port": "498a4c49-6944-469b-82b2-dec94935985c"
+            "block": "f9c9eb55-b808-476f-976a-5373d8b390d8",
+            "port": "749129bf-3ce5-48d4-a8d8-87cc401ccd5d"
           },
           "target": {
             "block": "749129bf-3ce5-48d4-a8d8-87cc401ccd5d",
@@ -272,6 +272,278 @@
     }
   },
   "dependencies": {
+    "b32aca6e8d9c47e0c2de2cf39e822908d9ce42cc": {
+      "package": {
+        "name": "Pushbutton-bus",
+        "version": "0.1",
+        "description": "Virtual-pushbutton. Bus block",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22492.384%22%20height=%22898.508%22%20viewBox=%220%200%20130.27671%20237.73024%22%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20143.834)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu%22%20x=%2226.45%22%20y=%22126.599%22%20font-weight=%22400%22%20font-size=%2219.337%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%221.712%22%20transform=%22translate(-16.246%2073.41)%22%3E%3Ctspan%20x=%2226.45%22%20y=%22126.599%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EPushButton%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%2086.483)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(1.05884%200%200%201.05884%208.018%20-62.42)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.823%200%200%20.823%20-156.5%2077.249)%22%3E%3Cellipse%20cy=%2214.088%22%20cx=%22265.674%22%20rx=%2244.933%22%20ry=%2244.728%22%20fill=%22#83796b%22%20stroke=%22#000%22%20stroke-width=%221.834%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M249.535%2056.245l8.579-9.706s16.702%202.27%2027.032-5.262c10.33-7.532%2014.313-18.122%2014.313-18.122l9.623.13s.123%2017.029-19.476%2029.258c-19.6%2012.23-40.071%203.702-40.071%203.702zM294.306-20.648l-6.374%208.581s-20.463-13.658-36.894-4.412c-16.43%209.246-17.565%2021.645-17.565%2021.645l-11.645-.13s4.693-27.224%2031.861-34.019c27.169-6.796%2040.617%208.335%2040.617%208.335z%22%20fill=%22#edeeee%22%20stroke=%22#000%22%20stroke-width=%221.834%22/%3E%3Cellipse%20cy=%2213.405%22%20cx=%22266.233%22%20rx=%2234.021%22%20ry=%2233.866%22%20fill=%22#d5403e%22%20stroke=%22#000%22%20stroke-width=%221.834%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20cx=%22265.832%22%20cy=%2213.2%22%20rx=%2226.223%22%20ry=%2226.104%22%20fill=%22#e75553%22/%3E%3Cpath%20d=%22M243.308%204.644c-.537-9.328%207.204-17.147%2021.007-17.235%2013.802-.088%2022.9%204.879%2023.494%2014.927.594%2010.047-10.64%2016.823-20.905%2017.086-10.264.264-23.06-5.45-23.596-14.778z%22%20fill=%22#e96f6f%22/%3E%3Cellipse%20cx=%22229.494%22%20cy=%22-149.715%22%20rx=%221.886%22%20ry=%227.286%22%20transform=%22matrix(.79638%20.6048%20-.69258%20.72134%200%200)%22%20fill=%22#eab5b5%22/%3E%3C/g%3E%3C/svg%3E",
+        "otid": 1586929241481
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "06eb3584-9ddd-4ea1-8a58-0a61503a8f98",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 248,
+                "y": 240
+              }
+            },
+            {
+              "id": "baf184fe-538f-407e-b2b5-72e5851740a1",
+              "type": "basic.output",
+              "data": {
+                "name": "ch"
+              },
+              "position": {
+                "x": 616,
+                "y": 248
+              }
+            },
+            {
+              "id": "445dd56e-8823-4325-aded-916cf2624f59",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "range": "[10:0]",
+                "clock": false,
+                "size": 11
+              },
+              "position": {
+                "x": 248,
+                "y": 336
+              }
+            },
+            {
+              "id": "b6140fa0-ef53-4f1b-bcc8-631d1608d96c",
+              "type": "basic.output",
+              "data": {
+                "name": "",
+                "range": "[10:0]",
+                "size": 11
+              },
+              "position": {
+                "x": 616,
+                "y": 336
+              }
+            },
+            {
+              "id": "a8e3e9f0-1d60-4ebc-8fc8-a2dcaa460a23",
+              "type": "basic.input",
+              "data": {
+                "name": "nc",
+                "clock": false
+              },
+              "position": {
+                "x": 248,
+                "y": 408
+              }
+            },
+            {
+              "id": "6d75db5b-9cb9-4620-a151-049a4c057b3b",
+              "type": "basic.output",
+              "data": {
+                "name": "bit"
+              },
+              "position": {
+                "x": 616,
+                "y": 408
+              }
+            },
+            {
+              "id": "5c4513fa-3df8-4e75-a16a-968e49322325",
+              "type": "basic.output",
+              "data": {
+                "name": "on"
+              },
+              "position": {
+                "x": 616,
+                "y": 464
+              }
+            },
+            {
+              "id": "faa65cd9-06a8-44c2-ad70-8ee5eb7aae69",
+              "type": "basic.input",
+              "data": {
+                "name": "nc",
+                "clock": false
+              },
+              "position": {
+                "x": 248,
+                "y": 472
+              }
+            },
+            {
+              "id": "749129bf-3ce5-48d4-a8d8-87cc401ccd5d",
+              "type": "basic.output",
+              "data": {
+                "name": "off"
+              },
+              "position": {
+                "x": 616,
+                "y": 520
+              }
+            },
+            {
+              "id": "462b290f-d5dd-423a-bc76-6b5d88f3b878",
+              "type": "basic.input",
+              "data": {
+                "name": "nc",
+                "clock": false
+              },
+              "position": {
+                "x": 248,
+                "y": 528
+              }
+            },
+            {
+              "id": "672c9096-9703-4da2-aa8e-743b1a7bb783",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "\"a\"",
+                "local": false
+              },
+              "position": {
+                "x": 408,
+                "y": 224
+              }
+            },
+            {
+              "id": "2786b3c5-8f2f-4b46-b600-7cdcc96735fc",
+              "type": "basic.info",
+              "data": {
+                "info": "The block is exactly the same than the  \nswitch-bus, but with another icon",
+                "readonly": true
+              },
+              "position": {
+                "x": 344,
+                "y": 160
+              },
+              "size": {
+                "width": 328,
+                "height": 48
+              }
+            },
+            {
+              "id": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+              "type": "5c14e0bce2246e0fce154084083b1650b8cdb21e",
+              "position": {
+                "x": 408,
+                "y": 320
+              },
+              "size": {
+                "width": 96,
+                "height": 160
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "06eb3584-9ddd-4ea1-8a58-0a61503a8f98",
+                "port": "out"
+              },
+              "target": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "24461065-fc3f-4420-8a79-951f85fdad08"
+              }
+            },
+            {
+              "source": {
+                "block": "672c9096-9703-4da2-aa8e-743b1a7bb783",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "01eb12f2-3378-470e-9326-ce5f54740afd"
+              }
+            },
+            {
+              "source": {
+                "block": "445dd56e-8823-4325-aded-916cf2624f59",
+                "port": "out"
+              },
+              "target": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "2d69f499-7e85-4219-8576-364c275cfbf7"
+              },
+              "size": 11
+            },
+            {
+              "source": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "e4b6b8e0-39ac-482f-a328-705d9992e09a"
+              },
+              "target": {
+                "block": "baf184fe-538f-407e-b2b5-72e5851740a1",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "39981364-dfe1-4169-9cec-9ba2143cd4a5"
+              },
+              "target": {
+                "block": "b6140fa0-ef53-4f1b-bcc8-631d1608d96c",
+                "port": "in"
+              },
+              "size": 11
+            },
+            {
+              "source": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "7f8dcdff-0453-4d52-9536-ee26651255f7"
+              },
+              "target": {
+                "block": "6d75db5b-9cb9-4620-a151-049a4c057b3b",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "e115706e-2c0c-4bca-8600-6d6e721af6cc"
+              },
+              "target": {
+                "block": "5c4513fa-3df8-4e75-a16a-968e49322325",
+                "port": "in"
+              },
+              "vertices": [
+                {
+                  "x": 584,
+                  "y": 456
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "5f356842-86ad-4fab-9a10-aea33ade8ed8",
+                "port": "498a4c49-6944-469b-82b2-dec94935985c"
+              },
+              "target": {
+                "block": "749129bf-3ce5-48d4-a8d8-87cc401ccd5d",
+                "port": "in"
+              },
+              "vertices": [
+                {
+                  "x": 560,
+                  "y": 504
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
     "5c14e0bce2246e0fce154084083b1650b8cdb21e": {
       "package": {
         "name": "Virtual-switch",
